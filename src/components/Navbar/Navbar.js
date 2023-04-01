@@ -10,9 +10,9 @@ const Navbar = () => {
       <div className="sub-navbar">
         <div className="logo">
           <h3>
-            <span className="span1">Ori</span>
+            <span className="span1">Law </span>
             <span className="span2">.</span>
-            <span className="span3">Lawyer</span>
+            <span className="span3">Academy</span>
           </h3>
         </div>
         <ul className="menu-container">

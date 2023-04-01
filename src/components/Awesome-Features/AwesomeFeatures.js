@@ -21,7 +21,7 @@ const AwesomeFeatures = () => {
 
   return (
     <div className="awesome-features-container">
-      <h2 className="heading">Ori Great & Awesome Features</h2>
+      <h2 className="heading">Law Academy & Awesome Features</h2>
       <div className="underline-container">
         <div className="underline"></div>
         <div className="underline2"></div>

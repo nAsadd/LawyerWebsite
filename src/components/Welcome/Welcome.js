@@ -24,7 +24,7 @@ const Welcome = () => {
 
   return (
     <div className="welcome-container">
-      <h2 className="heading">Welcome To Ori Lawyers </h2>
+      <h2 className="heading">Welcome To Law Academy </h2>
       <div className="underline-container">
         <div className="underline"></div>
         <div className="underline2"></div>

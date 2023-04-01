@@ -6,7 +6,7 @@ const PracticeAreas = () => {
   return (
     <div className="practice-areas-container">
       <div className="practice-areas-sub-container">
-        <h2 className="heading">Ori Lawyer Practice Areas</h2>
+        <h2 className="heading">Law Academy Practice Areas</h2>
         <div className="underline-container">
           <div className="underline"></div>
           <div className="underline2"></div>

@@ -7,7 +7,7 @@ const Main = () => {
     <div className="main-container">
       <Navbar />
       <div className="sub-main-container">
-        <h1>Why ORI ?</h1>
+        <h1>Why Law Academy ?</h1>
         <h2>Awesome Theme For Lawyers Websites</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nihil?
@@ -15,7 +15,7 @@ const Main = () => {
           quam numquam nulla qui minima fugit. Reiciendis provident cumque
           veritatis repellendus reprehenderit.
         </p>
-        <button className="main-btn">Ori Features</button>
+        <button className="main-btn">Our Features</button>
       </div>
     </div>
   );
