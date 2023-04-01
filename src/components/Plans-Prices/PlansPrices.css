@@ -1,0 +1,203 @@
+:root {
+  --clr-primary-blue1: #00ced1;
+  --clr-primary-blue2: #7cb9e8;
+  --clr-primary-blue3: #72a0c1;
+  --clr-primary-blue4: rgb(108, 180, 238);
+  --clr-primary-blue5: #89cff0;
+  --clr-primary-blue6: #318ce7;
+  --clr-primary-blue7: #6699cc;
+  --clr-primary-blue8: #4b9cd3;
+  --clr-white: #dadada;
+}
+
+.plans-prices-container {
+  /* border: 2px solid black; */
+  padding: 2rem 0;
+}
+
+.plans-prices-container .heading {
+  width: 85%;
+  font-size: 20px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  color: var(--clr-primary-blue4);
+}
+.plans-prices-container .underline-container {
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.plans-prices-container .underline {
+  position: absolute;
+  top: 9px;
+  width: 30px;
+  border-top: 3px solid black;
+  z-index: 1;
+}
+.plans-prices-container .underline2 {
+  position: absolute;
+  width: 280px;
+  border-top: 1px solid #dadada;
+}
+
+.plans-prices-container .text {
+  width: 90%;
+  max-width: 780px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.plans-prices-container .btns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.plans-prices-container .btn {
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.plans-prices-container .btn:hover {
+  cursor: pointer;
+}
+
+.plans-prices-container .btn-left {
+  background-color: black;
+  transition: background-color 0.1s linear;
+}
+.plans-prices-container .btn-left:hover {
+  background-color: rgb(73, 73, 73);
+}
+.plans-prices-container .btn-right {
+  background-color: var(--clr-primary-blue4);
+  transition: background-color 0.1s linear;
+}
+.plans-prices-container .btn-right:hover {
+  background-color: var(--clr-primary-blue3);
+}
+
+.plans-prices-container .cards-container {
+  margin: 2rem 0 0 0;
+  padding: 10px 0;
+}
+.plans-prices-container .subcards-container {
+  width: 76%;
+  margin: 0 auto;
+  display: grid;
+  column-gap: 30px;
+  /* border: 2px solid black; */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.plans-prices-container .card {
+  border: 1px solid rgb(218, 218, 218);
+  transition: box-shadow 1s;
+}
+.plans-prices-container .card:hover {
+  box-shadow: 1px 1px 3px silver, -1px -1px 3px silver;
+}
+.plans-prices-container .card:hover .top {
+  background-color: var(--clr-primary-blue2);
+}
+.plans-prices-container .card:hover .hh3 {
+  color: white;
+}
+.plans-prices-container .card:hover .top .sp3 {
+  color: white;
+}
+
+.plans-prices-container .card .top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: rgb(245, 245, 245);
+  transition: background-color 0.5s;
+}
+
+.plans-prices-container .card .top .spans {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans-prices-container .card .top .sp1 {
+  font-size: 2.5rem;
+}
+
+.plans-prices-container .card .top .sp2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 5px;
+}
+
+.plans-prices-container .card .top .sp3 {
+  font-size: 11px;
+  color: silver;
+  transition: color 0.5s;
+}
+.plans-prices-container .card .top h3 {
+  color: var(--clr-primary-blue4);
+  margin: -8px 0 0 0;
+  transition: color 0.5s;
+  font-weight: 500;
+}
+
+.plans-prices-container .card .top .btn {
+  background-color: black;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0;
+  font-size: 14px;
+  margin: 15px 0 8px 0;
+  transition: background-color 0.2s;
+}
+
+.plans-prices-container .card .top .btn:hover {
+  background-color: #333;
+}
+
+.plans-prices-container .card .bottom .attributes {
+  border-bottom: 1px solid rgb(175, 175, 175);
+  width: 90%;
+  margin: 0 auto;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.plans-prices-container .card .bottom .attributes:last-child {
+  border: none;
+}
+.plans-prices-container .card .bottom .attributes .s1 {
+  font-size: 13px;
+  color: rgb(175, 175, 175);
+}
+.plans-prices-container .card .bottom .attributes .s2 {
+  font-size: 13px;
+  color: var(--clr-primary-blue2);
+}
+
+@media all and (max-width: 900px) {
+  .plans-prices-container .subcards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  plans-prices-container .card {
+    margin: 20px 0;
+  }
+}
+@media all and (max-width: 600px) {
+  .plans-prices-container .subcards-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,118 @@
+:root {
+  --clr-primary-blue1: #00ced1;
+  --clr-primary-blue2: #7cb9e8;
+  --clr-primary-blue3: #72a0c1;
+  --clr-primary-blue4: rgb(108, 180, 238);
+  --clr-primary-blue5: #89cff0;
+  --clr-primary-blue6: #318ce7;
+  --clr-primary-blue7: #6699cc;
+  --clr-primary-blue8: #4b9cd3;
+  --clr-white: #dadada;
+}
+.awesome-features-container {
+  background: 3px rgba(15, 15, 15, 0.877)
+    url("../../../public/images/card3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  padding: 1rem 0;
+}
+.awesome-features-container .heading {
+  width: 85%;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  color: var(--clr-white);
+}
+.awesome-features-container .underline-container {
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.awesome-features-container .underline {
+  position: absolute;
+  top: 9px;
+  width: 30px;
+  border-top: 3px solid var(--clr-primary-blue5);
+  z-index: 1;
+}
+.awesome-features-container .underline2 {
+  position: absolute;
+  width: 280px;
+  border-top: 1px solid #dadada;
+}
+
+.awesome-features-container .text {
+  width: 90%;
+  max-width: 780px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  color: #dadada;
+}
+
+.awesome-features-container .cards-container {
+  margin: 2rem 0;
+}
+
+.awesome-features-container .subcards-container {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.awesome-features-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.awesome-features-container .icon-container {
+  border: 2px solid var(--clr-primary-blue4);
+  border-radius: 50%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awesome-features-container .icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.awesome-features-container .card h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 12px 0 0 0;
+}
+
+.awesome-features-container .card span {
+  color: var(--clr-primary-blue4);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+@media all and (max-width: 900px) {
+  .awesome-features-container .subcards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    margin: 10px 0;
+  }
+}
+@media all and (max-width: 600px) {
+  .awesome-features-container .subcards-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    margin: 10px 0;
+  }
+}

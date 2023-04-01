@@ -1,0 +1,72 @@
+:root {
+  --clr-primary-blue1: #00ced1;
+  --clr-primary-blue2: #7cb9e8;
+  --clr-primary-blue3: #72a0c1;
+  --clr-primary-blue4: #6cb4ee;
+  --clr-primary-blue5: #89cff0;
+  --clr-primary-blue6: #318ce7;
+  --clr-primary-blue7: #6699cc;
+  --clr-primary-blue8: #4b9cd3;
+  --clr-white: #dadada;
+}
+
+.main-container {
+  background: 3px rgba(48, 48, 48, 0.788)
+    url("../../../public/images/cover2.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.sub-main-container {
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  /* padding: 11.05rem 0; */
+  height: 89.2vh;
+}
+
+.sub-main-container h1 {
+  width: 90%;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.sub-main-container h2 {
+  width: 90%;
+  text-align: center;
+  margin: 0.3rem 0 1.7rem 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.sub-main-container p {
+  width: 90%;
+  max-width: 735px;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main-btn {
+  margin: 1.5rem 0 0 0;
+  font-size: 15px;
+  padding: 8px 20px;
+  background-color: var(--clr-primary-blue8);
+  color: var(--clr-white);
+  font-weight: 700;
+  border: none;
+  transition: transform 0.2s linear, color 0.2s linear;
+}
+
+.main-btn:hover {
+  cursor: pointer;
+  background-color: var(--clr-primary-blue3);
+  transform: scale(1.1);
+  color: #fff;
+}

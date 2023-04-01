@@ -1,0 +1,120 @@
+:root {
+  --clr-primary-blue1: #00ced1;
+  --clr-primary-blue2: #7cb9e8;
+  --clr-primary-blue3: #72a0c1;
+  --clr-primary-blue4: rgb(108, 180, 238);
+  --clr-primary-blue5: #89cff0;
+  --clr-primary-blue6: #318ce7;
+  --clr-primary-blue7: #6699cc;
+  --clr-primary-blue8: #4b9cd3;
+  --clr-white: #dadada;
+}
+
+.practice-areas-container {
+  height: 60vh;
+  background: url("../../../public/images/card8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  padding: 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.practice-areas-container .practice-areas-sub-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(137, 207, 240, 0.45);
+}
+.practice-areas-container .heading {
+  width: 85%;
+  margin: 4rem auto 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+.practice-areas-container .underline-container {
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.practice-areas-container .underline {
+  position: absolute;
+  top: 9px;
+  width: 30px;
+  border-top: 3px solid black;
+  z-index: 1;
+}
+
+.practice-areas-container .underline2 {
+  position: absolute;
+  width: 280px;
+  border-top: 1px solid rgb(179, 179, 179);
+}
+
+.practice-areas-container .text {
+  width: 90%;
+  max-width: 780px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+}
+
+.practice-areas-container .cards-container {
+  margin: 2rem 0 0 0;
+  padding: 10px 0;
+}
+.practice-areas-container .subcards-container {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.practice-areas-container .card {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 0;
+  transition: transform 0.5s, scale 0.5s, background-color 0.5s;
+}
+
+.practice-areas-container .card:hover {
+  cursor: pointer;
+  transform: rotate(8deg) scale(1.1);
+  /* background-color: rgba(108, 180, 238, 0.6); */
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+.practice-areas-container .card:hover .h3 {
+  color: #fff;
+}
+
+.practice-areas-container .card:hover .icon {
+  color: var(--clr-primary-blue4);
+  /* color: #fff; */
+}
+
+.practice-areas-container .card .icon {
+  font-size: 3rem;
+  color: #333;
+  transition: color 0.5s;
+}
+.practice-areas-container .card .h3 {
+  color: var(--clr-primary-blue4);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.5s;
+}

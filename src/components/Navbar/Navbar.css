@@ -1,0 +1,121 @@
+:root {
+  --clr-primary-blue1: #00ced1;
+  --clr-primary-blue2: #7cb9e8;
+  --clr-primary-blue3: #72a0c1;
+  --clr-primary-blue4: #6cb4ee;
+  --clr-primary-blue5: #89cff0;
+  --clr-primary-blue6: #318ce7;
+  --clr-primary-blue7: #6699cc;
+  --clr-primary-blue8: #4b9cd3;
+  --clr-white: #dadada;
+}
+
+.navbar-container {
+  /* border: 2px solid black; */
+  padding: 1rem 0;
+}
+
+.sub-navbar {
+  width: 75%;
+  /* border: 2px solid black; */
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--clr-white);
+}
+
+.span1 {
+  font-size: 26px;
+}
+.span2 {
+  font-size: 22px;
+  color: var(--clr-primary-blue8);
+}
+.span3 {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(180, 180, 180);
+  margin-left: 7px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  font-size: 14px;
+  margin-left: 30px;
+
+  list-style-type: none;
+  text-decoration: none;
+  transition: transform 0.2s linear, color 0.2s linear;
+}
+
+.menu:hover {
+  cursor: pointer;
+  color: var(--clr-primary-blue8);
+  transform: scale(1.2);
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+}
+.bars-container {
+  display: block;
+  align-items: center;
+  font-size: 18px;
+  transition: transform 0.2s linear, color 0.2s linear;
+}
+.bars-container-active {
+  color: var(--clr-primary-blue8);
+}
+.bars-container:hover {
+  cursor: pointer;
+  color: var(--clr-primary-blue8);
+  transform: scale(1.2);
+}
+
+.submenu-container {
+  width: 100%;
+  height: 0%;
+  overflow: hidden;
+  position: absolute;
+  top: 12%;
+  background-color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: height 1s;
+}
+
+.show-submenu-container {
+  height: 89%;
+}
+.submenu {
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  font-size: 18px;
+  padding: 1rem 0 1rem 15px;
+  transition: background-color 0.3s linear, padding-left 0.3s linear;
+}
+
+.submenu:hover {
+  padding-left: 25px;
+  cursor: pointer;
+  background-color: var(--clr-primary-blue2);
+}
+
+@media all and (max-width: 1150px) {
+  .bars-container {
+    display: block;
+  }
+  .menu-container {
+    display: none;
+  }
+}
