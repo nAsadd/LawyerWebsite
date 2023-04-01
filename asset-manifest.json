@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LawyerWebsite/static/css/main.95e71ce5.css",
+    "main.js": "/LawyerWebsite/static/js/main.e95f2f35.js",
+    "static/media/card8.jpg": "/LawyerWebsite/static/media/card8.730eac6c74656a7539cb.jpg",
+    "static/media/cover2.jpg": "/LawyerWebsite/static/media/cover2.0c657d1f4da54835029d.jpg",
+    "static/media/card3.jpg": "/LawyerWebsite/static/media/card3.bfdc135619bc4afd6d5c.jpg",
+    "index.html": "/LawyerWebsite/index.html",
+    "main.95e71ce5.css.map": "/LawyerWebsite/static/css/main.95e71ce5.css.map",
+    "main.e95f2f35.js.map": "/LawyerWebsite/static/js/main.e95f2f35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95e71ce5.css",
+    "static/js/main.e95f2f35.js"
+  ]
+}
