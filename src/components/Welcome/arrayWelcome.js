@@ -1,4 +1,4 @@
-import { FaAngleRight, FaAngleLeft, FaBriefcase, FaBook } from "react-icons/fa";
+import { FaBriefcase, FaBook } from "react-icons/fa";
 import { BsBookmarkFill } from "react-icons/bs";
 
 const arrayWelcome = [

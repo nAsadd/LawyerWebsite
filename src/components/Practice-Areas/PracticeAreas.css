@@ -11,29 +11,20 @@
 }
 
 .practice-areas-container {
-  height: 60vh;
   background: url("../../../public/images/card8.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  padding: 1rem 0;
-  position: relative;
-  overflow: hidden;
 }
 
 .practice-areas-container .practice-areas-sub-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  padding: 2rem 0;
   background-color: rgba(137, 207, 240, 0.45);
 }
 .practice-areas-container .heading {
   width: 85%;
-  margin: 4rem auto 0 auto;
+  margin: 1rem auto 0 auto;
   text-align: center;
   color: #fff;
 }

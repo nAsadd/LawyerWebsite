@@ -116,10 +116,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
 }
 .lawyers-container .icon-btn {
   padding: 5px;
+  margin-left: 5px;
   font-size: 16px;
   background-color: black;
   border: none;

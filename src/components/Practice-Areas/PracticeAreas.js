@@ -1,8 +1,5 @@
 import React from "react";
 import "./PracticeAreas.css";
-import { FaBurn, FaWheelchair, FaTruck, FaBuilding } from "react-icons/fa";
-import { GrCurrency } from "react-icons/gr";
-import { BsFillHouseDoorFill } from "react-icons/bs";
 import arrayPracticeAreas from "./arrayPracticeAreas";
 
 const PracticeAreas = () => {
